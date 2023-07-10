@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/" element={<MainLayout />}>
+          <Route path="/Routing" element={<MainLayout />}>
             <Route index element={<Home />} />
             <Route path="courses" element={<Courses />} />
             <Route path="courses/:slug" element={<SingleCourse />} />
