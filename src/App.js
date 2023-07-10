@@ -15,10 +15,10 @@ function App() {
         <Routes>
           <Route path="/Routing" element={<MainLayout />}>
             <Route index element={<Home />} />
-            <Route path="courses" element={<Courses />} />
-            <Route path="courses/:slug" element={<SingleCourse />} />
-            <Route path="about" element={<About />} />
-            <Route path="contacts" element={<Contacts />} />
+            <Route path="/Routing/courses" element={<Courses />} />
+            <Route path="/Routing/courses/:slug" element={<SingleCourse />} />
+            <Route path="/Routing/about" element={<About />} />
+            <Route path="/Routing/contacts" element={<Contacts />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
