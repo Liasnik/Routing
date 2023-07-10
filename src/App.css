@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+/* Used by default with NavLink */
+.active {
+  color: lightyellow;
+  text-decoration: none;
+}
+
+/*className with callbeck function */
+/* .activeLink {
+  color: lightyellow;
+  text-decoration: none;
+} */
+
+h1 {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+h2 {
+  margin: 15px 0;
+}
+h3 {
+  margin: 10px 0;
+}
+
+button {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  color: rgb(145, 223, 248);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav a {
+  margin: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  padding: 10px;
+  background-color: darkslategrey;
+}
